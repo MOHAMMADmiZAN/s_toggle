@@ -1,34 +1,43 @@
-$(".one").click(function () {
+///// variable ////
+const one = $('.one')
+const two = $('.two')
+const three = $('.three')
+const four = $('.four')
+const five = $('.five')
+const six = $('.six')
+const sub = $('#sub')
+
+// toggle part start/////
+one.click(function () {
     $(".chk1").fadeToggle();
-    $('.one').toggleClass('clr-bg');
+    one.toggleClass('clr-bg');
 
 
 })
-
-
-$(".two").click(function () {
+two.click(function () {
     $(".chk2").fadeToggle();
-    $('.two').toggleClass('clr-bg');
+    two.toggleClass('clr-bg');
 
 })
-$(".three").click(function () {
+three.click(function () {
     $(".chk3").fadeToggle();
-    $('.three').toggleClass('clr-bg');
+    three.toggleClass('clr-bg');
 })
-$(".four").click(function () {
+four.click(function () {
     $(".chk4").fadeToggle();
-    $('.four').toggleClass('clr-bg');
+    four.toggleClass('clr-bg');
 })
-$(".five").click(function () {
+five.click(function () {
     $(".chk5").fadeToggle();
-    $('.five').toggleClass('clr-bg');
+    five.toggleClass('clr-bg');
 })
-$(".six").click(function () {
+six.click(function () {
     $(".chk6").fadeToggle();
-    $('.six').toggleClass('clr-bg');
+    six.toggleClass('clr-bg');
 })
-
-$('.button').click(function (){
+//////////// toggle part end/////////////////////
+/////// submit button alert/////////////////
+$('.button').click(function () {
     swal({
         title: "Are you sure?",
         text: "Once You Submit, you will not be able to Edit This File!",
@@ -46,8 +55,7 @@ $('.button').click(function (){
             }
         });
 })
-const sub = $('#sub')
-
+////////////////////// form action ///////////////////
 
 sub.submit(function () {
     $.ajax({
