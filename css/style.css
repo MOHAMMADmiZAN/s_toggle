@@ -38,11 +38,12 @@ body{
     font-family: 'Nunito', sans-serif;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #43c0e3 ;
+    border: 1px solid #43c0e3;
     margin: 10px 0;
     display: block;
     width: 70%;
     font-size: 14px;
+    outline: none;
 }
 .form label{
     font-family: 'Nunito', sans-serif;

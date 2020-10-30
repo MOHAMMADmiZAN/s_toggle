@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d364c6-67db-4d6a-a7b2-73e62a30da29" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604070078315</updated>
       <workItem from="1604070079370" duration="10281000" />
-      <workItem from="1604081385457" duration="5161000" />
+      <workItem from="1604081385457" duration="5805000" />
     </task>
     <task id="LOCAL-00001" summary="before responsive">
       <created>1604081949033</created>
@@ -85,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604087333590</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1604087661317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604087661317</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,13 +116,13 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="86" key="CommitChangelistDialog2" timestamp="1604087331960">
+    <state x="583" y="86" key="CommitChangelistDialog2" timestamp="1604087659305">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="86" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1604087331960" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604087338113">
+    <state x="583" y="86" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1604087659305" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604087664564">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604087338113" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604087664564" />
   </component>
 </project>

@@ -57,14 +57,14 @@ $('.button').click(function () {
 })
 ////////////////////// form action ///////////////////
 
-// sub.submit(function () {
-//     $.ajax({
-//         url: sub.attr('action'),
-//         type: 'POST',
-//         data: sub.serialize(),
-//         success: function () {
-//             console.log('form submitted.');
-//         }
-//     });
-//     return false;
-// });
+sub.submit(function () {
+    $.ajax({
+        url: sub.attr('action'),
+        type: 'POST',
+        data: sub.serialize(),
+        success: function () {
+            console.log('form submitted.');
+        }
+    });
+    return false;
+});
