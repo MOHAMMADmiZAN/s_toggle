@@ -81,7 +81,7 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-button{
+.button button{
     background: #43c0e3;
     padding: 10px 15px;
     letter-spacing: 5px;

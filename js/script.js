@@ -28,5 +28,22 @@ $(".six").click(function () {
     $('.six').toggleClass('clr-bg');
 })
 
-
+$('.button').click(function (){
+    swal({
+        title: "Are you sure?",
+        text: "Once You Submit, you will not be able to Edit This File!",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+    })
+        .then((willDelete) => {
+            if (willDelete) {
+                swal("Good! Your Data  has been Submitted!", {
+                    icon: "success",
+                });
+            } else {
+                swal("Your Data file is safe!");
+            }
+        });
+})
 
