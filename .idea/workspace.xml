@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d364c6-67db-4d6a-a7b2-73e62a30da29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -39,11 +41,33 @@
       <option name="presentableId" value="Default" />
       <updated>1604070078315</updated>
       <workItem from="1604070079370" duration="10281000" />
-      <workItem from="1604081385457" duration="495000" />
+      <workItem from="1604081385457" duration="910000" />
     </task>
+    <task id="LOCAL-00001" summary="before responsive">
+      <created>1604081949033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604081949033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="before responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="before responsive" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="583" y="86" key="CommitChangelistDialog2" timestamp="1604081948406">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="583" y="86" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1604081948406" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604081954557">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604081954557" />
   </component>
 </project>

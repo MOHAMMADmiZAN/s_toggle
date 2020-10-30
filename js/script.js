@@ -46,4 +46,17 @@ $('.button').click(function (){
             }
         });
 })
+const sub = $('#sub')
 
+
+sub.submit(function () {
+    $.ajax({
+        url: sub.attr('action'),
+        type: 'POST',
+        data: sub.serialize(),
+        success: function () {
+            console.log('form submitted.');
+        }
+    });
+    return false;
+});
