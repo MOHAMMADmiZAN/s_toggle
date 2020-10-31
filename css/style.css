@@ -51,39 +51,42 @@ body{
     font-size: 16px;
 
 }
-.sub-title{
+
+.sub-title {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 24px;
     text-align: center;
     text-transform: uppercase;
 }
-.items{
-    display: flex;
-    flex-wrap: wrap;
-}
-.item{
-    display: flex;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: 1px solid #43c0e3;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    margin: 10px;
-    cursor: pointer;
-    text-transform: uppercase;
+
+/*.items{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*.item{*/
+/*    display: flex;*/
+/*    padding: 10px 15px;*/
+/*    border-radius: 5px;*/
+/*    border: 1px solid #43c0e3;*/
+/*    font-family: 'Nunito', sans-serif;*/
+/*    font-weight: 500;*/
+/*    font-size: 16px;*/
+/*    margin: 10px;*/
+/*    cursor: pointer;*/
+/*    text-transform: uppercase;*/
 
 
-}
-.item h6{
-    margin: 0 5px;
-}
-.button{
+/*}*/
+/*.item h6{*/
+/*    margin: 0 5px;*/
+/*}*/
+.button {
     text-align: center;
     margin-top: 20px;
 }
-.button button{
+
+.button button {
     background: #43c0e3;
     padding: 10px 15px;
     letter-spacing: 5px;
@@ -98,9 +101,9 @@ body{
     cursor: pointer;
 }
 
-.item i {
-    display: none;
-}
+/*.item i {*/
+/*    display: none;*/
+/*}*/
 
 .clr-bg {
     color: #ffffff;
@@ -196,4 +199,6 @@ ul.ks-cboxtags li input[type="checkbox"]:hover + label {
 .result h2 {
     margin: 15px;
     color: #0c5460;
+    font-size: 16px;
+    text-transform: uppercase;
 }

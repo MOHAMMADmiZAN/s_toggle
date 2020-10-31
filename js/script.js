@@ -20,8 +20,9 @@
 //             }
 //         });
 // })
-////////////////////// form action ///////////////////
 
+////////////////////// form action ///////////////////
+// with ajax req
 // sub.submit(function () {
 //     $.ajax({
 //         url: sub.attr('action'),
@@ -77,7 +78,7 @@ $('#checkboxSix').click(function () {
     }
 });
 
-//// response part ///
+// response part ///
 function handleSubmit() {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
