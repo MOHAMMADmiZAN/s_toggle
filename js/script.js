@@ -77,6 +77,7 @@ $('#checkboxSix').click(function () {
     }
 });
 
+//// response part ///
 function handleSubmit() {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
@@ -106,3 +107,5 @@ function handleSubmit() {
 
 
 }
+
+
