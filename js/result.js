@@ -1,33 +1,4 @@
-// response part ///
-function handleSubmit() {
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const number = document.getElementById('number').value;
-    const password = document.getElementById('password').value;
-    const birth = document.getElementById('birth').value;
-    const checkboxOne = document.getElementById('checkboxOne').value;
-    const checkboxTwo = document.getElementById('checkboxTwo').value;
-    const checkboxThree = document.getElementById('checkboxThree').value;
-    const checkboxFour = document.getElementById('checkboxFour').value;
-    const checkboxFive = document.getElementById('checkboxFive').value;
-    const checkboxSix = document.getElementById('checkboxSix').value;
 
-
-    // to set into local storage
-    sessionStorage.setItem("NAME", name);
-    sessionStorage.setItem("EMAIL", email);
-    sessionStorage.setItem("NUMBER", number);
-    sessionStorage.setItem("PASSWORD", password);
-    sessionStorage.setItem("CHECKBOXONE", checkboxOne);
-    sessionStorage.setItem("CHECKBOXTWO", checkboxTwo);
-    sessionStorage.setItem("CHECKBOXTHREE", checkboxThree);
-    sessionStorage.setItem("CHECKBOXFOUR", checkboxFour);
-    sessionStorage.setItem("CHECKBOXFIVE", checkboxFive);
-    sessionStorage.setItem("CHECKBOXSIX", checkboxSix);
-    sessionStorage.setItem("BIRTH", birth);
-
-
-}
 
 window.addEventListener('load', () => {
 
