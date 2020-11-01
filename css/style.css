@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 0;
 }
 ol,ul,li{
+    list-style: none;
     display: inline-block;
 }
 body{
@@ -60,27 +61,7 @@ body{
     text-transform: uppercase;
 }
 
-/*.items{*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*}*/
-/*.item{*/
-/*    display: flex;*/
-/*    padding: 10px 15px;*/
-/*    border-radius: 5px;*/
-/*    border: 1px solid #43c0e3;*/
-/*    font-family: 'Nunito', sans-serif;*/
-/*    font-weight: 500;*/
-/*    font-size: 16px;*/
-/*    margin: 10px;*/
-/*    cursor: pointer;*/
-/*    text-transform: uppercase;*/
 
-
-/*}*/
-/*.item h6{*/
-/*    margin: 0 5px;*/
-/*}*/
 .button {
     text-align: center;
     margin-top: 20px;
@@ -101,9 +82,7 @@ body{
     cursor: pointer;
 }
 
-/*.item i {*/
-/*    display: none;*/
-/*}*/
+
 
 .clr-bg {
     color: #ffffff;
@@ -111,7 +90,7 @@ body{
 }
 
 /*///////////////////////////////////////// chk box ////////////////////////////////////////*/
-ul.ks-cboxtags {
+ul .ks-cboxtags {
     list-style: none;
     padding: 20px;
 }
