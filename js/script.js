@@ -38,28 +38,37 @@
 $('#checkboxOne').click(function () {
     if ($('#checkboxOne').is(":checked") === true) {
         $('#checkboxOne').val('HTML');
+    } else {
+        $('#checkboxOne').val("");
     }
 });
 $('#checkboxTwo').click(function () {
     if ($('#checkboxTwo').is(":checked") === true) {
         $('#checkboxTwo').val('CSS');
+    } else {
+        $('#checkboxTwo').val("");
     }
 });
 $('#checkboxThree').click(function () {
     if ($('#checkboxThree').is(":checked") === true) {
         $('#checkboxThree').val('JAVASCRIPT');
+    } else {
+        $('#checkboxThree').val("");
     }
 });
 $('#checkboxFour').click(function () {
     if ($('#checkboxFour').is(":checked") === true) {
         $('#checkboxFour').val('PHP');
+    } else {
+        $('#checkboxFour').val("");
     }
 });
 $('#checkboxFive').click(function () {
     if ($('#checkboxFive').is(":checked") === true) {
         $('#checkboxFive').val('LARAVEL');
+    } else {
+        $('#checkboxFive').val("");
     }
-
 });
 $('#checkboxSix').click(function () {
     if ($('#checkboxSix').is(":checked") === true) {
